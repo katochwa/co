@@ -7,8 +7,8 @@ Copyright (c) 2014 Daniel Eden
 */
 
 .animated {
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -19,8 +19,8 @@ Copyright (c) 2014 Daniel Eden
 }
 
 .animated.hinge {
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 @-webkit-keyframes bounce {
@@ -556,8 +556,8 @@ Copyright (c) 2014 Daniel Eden
 .bounceIn {
   -webkit-animation-name: bounceIn;
           animation-name: bounceIn;
-  -webkit-animation-duration: .75s;
-          animation-duration: .75s;
+  -webkit-animation-duration: .45s;
+          animation-duration: .45s;
 }
 
 @-webkit-keyframes bounceInDown {
@@ -893,8 +893,8 @@ Copyright (c) 2014 Daniel Eden
 .bounceOut {
   -webkit-animation-name: bounceOut;
           animation-name: bounceOut;
-  -webkit-animation-duration: .75s;
-          animation-duration: .75s;
+  -webkit-animation-duration: .45s;
+          animation-duration: .45s;
 }
 
 @-webkit-keyframes bounceOutDown {
@@ -1843,8 +1843,8 @@ Copyright (c) 2014 Daniel Eden
 .flipOutX {
   -webkit-animation-name: flipOutX;
           animation-name: flipOutX;
-  -webkit-animation-duration: .75s;
-          animation-duration: .75s;
+  -webkit-animation-duration: .45s;
+          animation-duration: .45s;
   -webkit-backface-visibility: visible !important;
           backface-visibility: visible !important;
 }
@@ -1892,8 +1892,8 @@ Copyright (c) 2014 Daniel Eden
           backface-visibility: visible !important;
   -webkit-animation-name: flipOutY;
           animation-name: flipOutY;
-  -webkit-animation-duration: .75s;
-          animation-duration: .75s;
+  -webkit-animation-duration: .45s;
+          animation-duration: .45s;
 }
 
 @-webkit-keyframes lightSpeedIn {
