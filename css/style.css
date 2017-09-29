@@ -1,3 +1,8 @@
+html, body {
+   	 height: 100%;
+   	 margin: 0;
+}
+
 body{
 	font-family: 'Dosis', sans-serif;
 }
@@ -18,7 +23,7 @@ color: #777;
 text-transform: uppercase;
 }
 .navbar-default .navbar-nav>li>a:hover{
-	color: #85C1E9;
+	color: #418ec1;
 }
 header{
 	background: url(../images/header_bg.jpg);
@@ -68,7 +73,7 @@ header{
 }
 .single_service i{
 	font-size: 25px;
-	color: #85C1E9;
+	color: #418ec1;
 }
 .single_service h2{
 	color: #000000;
@@ -127,7 +132,7 @@ background-color: #2d3334;
 	position: absolute;
 	width: 80px;
 	height: 80px;
-	background-color: #85C1E9;
+	background-color: #418ec1;
 	top: 110px;
 	left: 50%;
 	-moz-transform: rotate(45deg);
@@ -180,7 +185,7 @@ padding-bottom: 30px;
 padding-top: 120px;	
 }
 .single_count i{
-	color: #85C1E9;
+	color: #418ec1;
 	font-size: 24px;
 }
 .single_count h3{
@@ -236,7 +241,7 @@ margin-top: -40px;
 position: absolute;
 width: 100%;
 height: 100%;
-background: rgba(247,77,101,.9);
+
 left: 0;
 top: 0;
 opacity: 0;
@@ -366,7 +371,7 @@ border: 0px solid #fff;
 }
 .form_submit{
 width: 100%;
-background: #85C1E9;
+background: #418ec1;
 border-radius: 0px;
 color: #fff;
 padding-top: 13px;
@@ -389,12 +394,15 @@ padding-top: 10px;
 
 /*Footer*/
 footer{
+	position: relative;
+	clear:both;
+	
 	background-color: #f1f1f1;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
 .footer_logo{}
-.footer_logo img{}
+.footer_logo img{vlign:text-top}
 .social{
 	padding-top: 65px;
 }
@@ -427,11 +435,11 @@ line-height: 28px;
 transition: all 1s;
 }
 ul.icon_list li a:hover{
-	color: #85C1E9;
-	border-color:#85C1E9; 
+	color: #418ec1;
+	border-color:#418ec1; 
 }
 .copyright_text{
-padding-top: 80px;	
+padding-top: 10px;	
 }
 .copyright_text p{
 color: #636363;
@@ -441,7 +449,7 @@ margin-bottom: 0px;
 letter-spacing: 0px;
 }
 .copyright_text a{
-	color:#85C1E9;
+	color:#418ec1;
 	text-transform:uppercase;
 	font-weight:700;
 	text-decoration:none;
