@@ -18,14 +18,9 @@ body {
     /*background: #fff;*/
     width: 100%;
     height: 100%;
-	color:#999;
-	font-size:14px;
-    font-family: sans-serif;
-    butlerbold,
-    'Lato',
-    Arial,
-    Helvetica,
-    sans-serif;
+	color:#777;
+	font-size:100%;
+    font-family:Georgia;
     overflow-x: hidden;
 }
 
@@ -91,11 +86,11 @@ h1 {
     z-index: 18;
     overflow: hidden;
     color: #fff;
-    font-size: 32px;
+    font-size: 200%;
     width: 100%;
     display: block;
     float: left;
-    line-height: 40px;
+    line-height: 150%;
 }
 
 .sub-menu li {
@@ -198,13 +193,13 @@ h1 {
 			   
 }
 .headertext>h2{
-		font-size:40px;
+		font-size:300%;
+		
 }
 
 .headertext>p{
-		line-height:50px;
+		line-height:200%;
 }
-
 
 
 /************************************************************/
@@ -226,59 +221,38 @@ h1 {
     justify-content: center;
     /* Horizontal center alignment */
 }
-
-.constyle >div> span {
-    font-size: 60px;
+.constyle >div:nth-child(1) {
+    font-size: 120%;
 }
-
+.constyle >div> span {
+    font-size: 400%;
+}
 .constyle >div>img {
     object-fit: cover;
 	width:103%;
-
 }
 
 .constyle>div>h2 {
     font-family: butlerbold;
 	padding:10%;
+	font-size:250%;
+	color:#555;
+	text-transform: uppercase;
 }
 
 .constyle>div>p {
     text-align: justify;
 	align-items:center;
-    font-size: 14px;
 	padding-left:10%;
 	padding-right:10%;
 	}
 
 .constyletitle{
 	white-space: nowrap;
-    font-size: 25px;
+    font-size: 200%;
 	z-index:1;
 }
 
-@media only screen and (max-width:992px){
-	.constyletitle{
-	margin-top:+8%;
-    margin-bottom:-8%;
-	margin-left:+10%;
-	}
-}
-
-@media only screen and (min-width:992px){
-	.roworder>div:nth-child(1){ 
-	order:12
-  }
-  	.roworder>div:nth-child(2){ 
-	order:7
-  }
-	.roworder>div:nth-child(3){ 
-	order:1
-  }
-  .constyletitle{
-transform: rotate(270deg);
-transform-origin:90% 90%;
- 	}
-}
 
 
 /****************************footer*************************************/
@@ -303,7 +277,7 @@ transform-origin:90% 90%;
     left: 30px;
     display: block;
     cursor: pointer;
-	font-size:40px;
+	font-size:200%;
 	z-index:999;
 }
 
@@ -335,7 +309,6 @@ transform-origin:90% 90%;
   }
   .insetshadow {
     color: #202020;
-    
     letter-spacing: .1em;
     text-shadow: 
       -1px -1px 1px #111, 
@@ -384,14 +357,37 @@ img {
 }
 
 
-.more
-{
+.more{
 	cursor: pointer;
 }
 
 
 
 
+@media only screen and (max-width:992px){
+
+	.constyletitle{
+	margin-top:+7%;
+    margin-bottom:-7%;
+	margin-left:+10%;
+	}
+}
+
+@media only screen and (min-width:992px){
+	.roworder>div:nth-child(1){ 
+	order:12
+  }
+  	.roworder>div:nth-child(2){ 
+	order:7
+  }
+	.roworder>div:nth-child(3){ 
+	order:1
+  }
+  .constyletitle{
+transform: rotate(270deg);
+transform-origin:90% 90%;
+ 	}
+}
 
 
 
