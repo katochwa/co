@@ -256,7 +256,7 @@ h1 {
 	z-index:1;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:992px){
 	.constyletitle{
 	margin-top:+8%;
     margin-bottom:-8%;
@@ -264,7 +264,7 @@ h1 {
 	}
 }
 
-@media only screen and (min-width:768px){
+@media only screen and (min-width:992px){
 	.roworder>div:nth-child(1){ 
 	order:12
   }
