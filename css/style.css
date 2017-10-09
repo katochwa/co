@@ -19,7 +19,10 @@ body {
     width: 100%;
     height: 100%;
 	color:#777;
-    font-family:Georgia;
+
+font-family: 'Comfortaa', cursive;
+font-family: 'Courgette', cursive;
+
     overflow-x: hidden;
 	font-size:100%;
 }
@@ -86,7 +89,7 @@ h1 {
     z-index: 18;
     overflow: hidden;
     color: #fff;
-    font-size: 200%;
+    font-size: 130%;
     width: 100%;
     display: block;
     float: left;
@@ -234,9 +237,9 @@ h1 {
 }
 
 .constyle>div>h2 {
-    font-family: butlerbold;
+    font-family: Comfortaa;
 	padding:10%;
-	font-size:250%;
+	font-size:200%;
 	color:#555;
 	text-transform: uppercase;
 }
@@ -354,7 +357,7 @@ img {
 }
 
 .single_service>h4, h5{
-	font-family: butlerbold;
+	font-family:Comfortaa;
 }
 
 
@@ -366,7 +369,7 @@ img {
 
 
 @media only screen and (max-width:992px){
-body{font-size:150%;
+body{font-size:130%;
 	}
 	.constyletitle{
 	margin-top:+7%;
