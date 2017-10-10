@@ -12,26 +12,23 @@ a {
 html {
     width: 100%;
     height: 100%;
+    margin: 0;
 }
 
 body {
     /*background: #fff;*/
     width: 100%;
     height: 100%;
-	color:#777;
-	font-family: 'Comfortaa', cursive;
-	font-family: 'Courgette', cursive;
+    color: #777;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Courgette', cursive;
     overflow-x: hidden;
-	font-size:100%;
+    font-size: 100%;
 }
 
-h1 {
-    width: 100%;
-    text-align: center;
-    padding: 40px 0;
-}
 
 /*-----------------begin menu-------------*/
+
 .open {
     position: fixed;
     top: 10px;
@@ -40,7 +37,7 @@ h1 {
     height: 50px;
     display: block;
     cursor: pointer;
-	z-index:8;
+    z-index: 8;
 }
 
 .open:hover {
@@ -169,49 +166,43 @@ h1 {
 .oppenned span:nth-child(3) {
     transform: rotate(-45deg) translateY(-10px) translateX(10px);
 }
+
+
 /*-----------------end menu-------------*/
 
 
 /*.oppenned li { margin-right: 168px; }*/
 
-.noborder {
-    border: 0px;
-}
 
 .headertext {
-    top: 30%;
+    top: 50%;
     width: 90%;
-	left:5%;
-	color:#fff;
-    text-shadow: 0 0 10px #fff,
-               0 0 20px  #fff,
-               0 0 30px  #fff,
-               0 0 40px  #228DFF,
-               0 0 70px  #228DFF,
-               0 0 80px  #228DFF,
-               0 0 100px #228DFF,
-               0 0 150px #228DFF;
-			   
+    left: 10%;
+    color: #fff;
+	line-height:160%;
+	font-size:200%;
+    text-shadow: 
+	0 0 10px #fff,
+	0 0 20px #fff, 
+	0 0 30px #fff, 
+	0 0 40px #228DFF, 
+	0 0 70px #228DFF, 
+	0 0 80px #228DFF, 
+	0 0 100px #228DFF, 
+	0 0 150px #228DFF;
 }
-.headertext>h2{
-		font-size:170%;
-}
-
-.headertext>p{
-		line-height:100%;
-}
-
 
 /************************************************************/
+
 #data {
     width: 100%;
-
 }
 
 .animated {
     animation-duration: 1s;
     animation-fill-mode: both;
 }
+
 /***********************************************************************/
 .constyle {
     padding-top: 150px;
@@ -221,210 +212,192 @@ h1 {
     justify-content: center;
     /* Horizontal center alignment */
 }
+
 .constyle >div:nth-child(1) {
     font-size: 120%;
 }
+
 .constyle >div> span {
     font-size: 400%;
 }
-.constyle >div>img {
-	
-    object-fit: cover;
-	width:100%;
 
+.constyle >div>img {
+    display: block;
+    width: 100%;
+    height: fit;
+    object-fit: cover;
 }
 
 .constyle>div>h2 {
     font-family: Comfortaa;
-	font-size:200%;
-	color:#555;
-	text-transform: uppercase;
-	padding-bottom:10%;
-		padding-left:5%;
+    font-size: 200%;
+    color: #777;
+    text-transform: uppercase;
+    padding-bottom: 10%;
+    padding-left: 5%;
 }
 
 .constyle>div>p {
-	
-	padding:5%;
+    padding: 5%;
     text-align: justify;
-	align-items:center;
-	}
-
-.constyletitle{
-	white-space: nowrap;
-    font-size: 200%;
-	z-index:1;
+    align-items: center;
 }
 
-
+.constyletitle {
+    white-space: nowrap;
+    font-size: 200%;
+    z-index: 1;
+}
 
 /****************************footer*************************************/
-.footer{
-	display: flex;
+.footer {
+    display: flex;
     align-items: center;
     /* Vertical center alignment */
     justify-content: center;
     /* Horizontal center alignment */
-	width:100%;
-	height:150px;
-	background-color:#eee;
+    width: 100%;
+    height: 180px;
+    background-color: #eee;
 }
-
-
-
 
 /*----------------------logo effect-----------------------------*/
 .logo {
-   position: fixed;
+    position: fixed;
     top: 0px;
     left: 30px;
     display: block;
     cursor: pointer;
-	font-size:200%;
-	z-index:999;
+    font-size: 300%;
+    z-index: 999;
 }
 
-  .elegantshadow {
+.elegantshadow {
     color: #FFF;
     /*background-color: #e7e5e4;*/
     letter-spacing: .05em;
-    text-shadow: 
-      1px -1px 0 #767676, 
-      -1px 2px 1px #737272, 
-      -2px 4px 1px #767474, 
-      -3px 6px 1px #787777, 
-      -4px 8px 1px #7b7a7a, 
-      -5px 10px 1px #7f7d7d, 
-      -6px 12px 1px #828181;
-  }
-  .deepshadow {
-    color: #e0dfdc;
-   /* background-color: #fff;*/
-    letter-spacing: .1em;
-    text-shadow: 
-      0 -1px 0 #fff, 
-      0 1px 0 #2e2e2e, 
-      0 2px 0 #2c2c2c, 
-      0 3px 0 #2a2a2a, 
-      0 4px 0 #282828, 
-      0 5px 0 #262626, 
-      0 6px 0 #242424;
-  }
-  .insetshadow {
-    color: #202020;
-    letter-spacing: .1em;
-    text-shadow: 
-      -1px -1px 1px #111, 
-      2px 2px 1px #363636;
-  }
-  .retroshadow {
-    color: #2c2c2c;
-    letter-spacing: .05em;
-    text-shadow: 
-      4px 4px 0px #d5d5d5, 
-      7px 7px 0px rgba(0, 0, 0, 0.2);
-  }
-/*------------------------------------end-----------------------*/
-.imgbulr
-{
-    display:block;
-    position:relative;
+    text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d, -6px 12px 1px #828181;
 }
 
+.deepshadow {
+    color: #e0dfdc;
+    /* background-color: #fff;*/
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424;
+}
+
+.insetshadow {
+    color: #202020;
+    letter-spacing: .1em;
+    text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
+}
+
+.retroshadow {
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*------------------------------------end-----------------------*/
 img {
     width: 100%;
     height: 100%;
 }
-.imgbulr:before
-{
-    display:block;
-    content:'';
-    position:absolute;
-    width:97%;
-    height:101%;
-    -moz-box-shadow:inset 0px 0px 20% 20% rgba(255,255,255,1);
-    -webkit-box-shadow:inset 0px 0px 36px 36px rgba(255,255,255,1);
-    box-shadow:inset 0px 0px 20% 20% rgba(255,255,255,1)
+
+.imgbulr {
+    display: block;
+    position: relative;
 }
 
-.single_service{
-	margin-top: 20px;
+.imgbulr:before {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 97%;
+    height: 101%;
+    -moz-box-shadow: inset 0px 0px 20% 20% rgba(255, 255, 255, 1);
+    -webkit-box-shadow: inset 0px 0px 36px 36px rgba(255, 255, 255, 1);
+    box-shadow: inset 0px 0px 20% 20% rgba(255, 255, 255, 1)
+}
+
+/*******************************************/
+
+.single_service {
+    margin-top: 20px;
     margin-bottom: 20px;
-	border-radius: 10px;
+    border-radius: 10px;
     background: #eee;
-    padding: 10px; 
+    padding: 10px;
 }
 
-.single_service>h4, h5{
-	font-family:Comfortaa;
+.single_service>h4,h5 {
+    font-family: Comfortaa;
 }
 
-
-.more{
-	cursor: pointer;
+.more {
+    cursor: pointer;
 }
 
-
-
-
-@media only screen and (max-width:992px){
-	.constyletitle{
-	margin-top:+6%;
-    margin-bottom:-6%;
-	margin-left:+10%;
-	}
-	
-.constyle>div>h2 {
-    padding-top:15%;
-}
+@media only screen and (max-width:992px) {
+    .constyletitle {
+        margin-top: +6%;
+        margin-bottom: -6%;
+        margin-left: +10%;
+    }
+    .constyle>div>h2 {
+        padding-top: 15%;
+    }
 }
 
-@media only screen and (min-width:992px){
-	
-	.roworder>div:nth-child(1){ 
-	order:12
-  }
-  	.roworder>div:nth-child(2){ 
-	order:7
-  }
-	.roworder>div:nth-child(3){ 
-	order:1
-  }
-  .constyletitle{
-transform: rotate(270deg);
-transform-origin:90% 90%;
- 	}
-	
-		.constyle>div>p {
-	padding-left:10%;
-	padding-right:10%;
-	}
-	
-	.constyle>div>h2 {
-	padding:10%;
-}
-.headertext {
-    top: 50%;
-    width: 90%;
-    left: 10%;	
-	color:#fff;
- 
-}
-.headertext>h2{
-		font-size:300%;
-		
-}
-
-.headertext>p{
-		line-height:200%;
-}
-.constyle {
-	padding:5%;
-}
-
+@media only screen and (min-width:992px) {
+    .roworder>div:nth-child(1) {
+        order: 12
+    }
+    .roworder>div:nth-child(2) {
+        order: 7
+    }
+    .roworder>div:nth-child(3) {
+        order: 1
+    }
+    .constyletitle {
+        transform: rotate(270deg);
+        transform-origin: 90% 90%;
+    }
+    .constyle>div>p {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .constyle>div>h2 {
+        padding: 10%;
+    }
+    .headertext {
+        top: 50%;
+        width: 90%;
+        left: 10%;
+        color: #fff;
+    }
+    .headertext>h2 {
+        font-size: 300%;
+    }
+    .headertext>p {
+        line-height: 200%;
+    }
+    .constyle {
+        padding: 5%;
+    }
 }
 
 
-
-
-
+/****************header********************/
+.headerImage {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: blue;
+}
+.content {
+    position: relative;
+    width: 100%;
+}
