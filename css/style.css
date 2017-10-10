@@ -383,13 +383,16 @@ img {
     .constyle {
         padding: 5%;
     }
+	.headerImage {
+    width: 100%;
+    height: 100%;
 }
 
 
 /****************header********************/
 .headerImage {
     width: 103%;
-    height: 103%;
+    height: 107%;
 	padding:0px;
 	margin:0px;
     background-repeat: no-repeat;
