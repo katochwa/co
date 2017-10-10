@@ -175,10 +175,10 @@ body {
 
 
 .headertext {
-    top: 50%;      
+    top: 40%;      
     color: #fff;
 	line-height:160%;
-	font-size:200%;
+	font-size:180%;
     text-shadow: 
 	0 0 10px #fff,
 	0 0 20px #fff, 
@@ -371,6 +371,7 @@ img {
     .headertext {
         top: 50%;
         left: 10%;
+		font-size:220%;
         color: #fff;
     }
     .headertext>h2 {
