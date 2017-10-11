@@ -20,7 +20,7 @@ body {
     width: 100%;
     height: 100%;
     color: #777;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Germania One', cursive;
     font-family: 'Courgette', cursive;
     overflow-x: hidden;
     font-size: 100%;
@@ -41,7 +41,7 @@ body {
 }
 
 .open:hover {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .open span {
@@ -173,22 +173,12 @@ body {
 
 /*.oppenned li { margin-right: 168px; }*/
 
-
 .headertext {
-    top: 40%;      
     color: #fff;
-	line-height:160%;
-	font-size:180%;
-    text-shadow: 
-	0 0 10px #fff,
-	0 0 20px #fff, 
-	0 0 30px #fff, 
-	0 0 40px #228DFF, 
-	0 0 70px #228DFF, 
-	0 0 80px #228DFF, 
-	0 0 100px #228DFF, 
-	0 0 150px #228DFF;
+    white-space: nowrap;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
 }
+
 
 /************************************************************/
 
@@ -201,9 +191,11 @@ body {
     animation-fill-mode: both;
 }
 
+
 /***********************************************************************/
+
 .constyle {
-    padding-top: 150px;
+    padding-top: 100px;
     display: flex;
     align-items: center;
     /* Vertical center alignment */
@@ -211,12 +203,8 @@ body {
     /* Horizontal center alignment */
 }
 
-.constyle >div:nth-child(1) {
+.constyle >div:nth-child(2) {
     font-size: 120%;
-}
-
-.constyle >div> span {
-    font-size: 400%;
 }
 
 .constyle >div>img {
@@ -227,27 +215,35 @@ body {
 }
 
 .constyle>div>h2 {
-    font-family: Comfortaa;
-    font-size: 150%;
+    font-family: 'Germania One';
+    font-size: 200%;
     color: #777;
     text-transform: uppercase;
-    padding-bottom: 10%;
     padding-left: 5%;
 }
 
 .constyle>div>p {
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
     text-align: justify;
     align-items: center;
 }
 
 .constyletitle {
+    text-align: right;
     white-space: nowrap;
     font-size: 200%;
     z-index: 1;
 }
 
+.constyletitle>span {
+    font-size: 300%;
+}
+
+
 /****************************footer*************************************/
+
 .footer {
     display: flex;
     align-items: center;
@@ -259,7 +255,9 @@ body {
     background-color: #eee;
 }
 
+
 /*----------------------logo effect-----------------------------*/
+
 .logo {
     position: fixed;
     top: 0px;
@@ -268,6 +266,7 @@ body {
     cursor: pointer;
     font-size: 300%;
     z-index: 999;
+    font-family: 'Germania One';
 }
 
 .elegantshadow {
@@ -296,7 +295,9 @@ body {
     text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
 }
 
+
 /*------------------------------------end-----------------------*/
+
 img {
     width: 100%;
     height: 100%;
@@ -311,25 +312,20 @@ img {
     display: block;
     content: '';
     position: absolute;
-    width: 97%;
-    height: 101%;
-    -moz-box-shadow: inset 0px 0px 20% 20% rgba(255, 255, 255, 1);
-    -webkit-box-shadow: inset 0px 0px 36px 36px rgba(255, 255, 255, 1);
-    box-shadow: inset 0px 0px 20% 20% rgba(255, 255, 255, 1)
+    width: 100%;
+    height: 100%;
 }
+
 
 /*******************************************/
 
 .single_service {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    background: #eee;
-    padding: 10px;
+    padding: 5%;
 }
 
-.single_service>h4,h5 {
-    font-family: Comfortaa;
+.single_service>h4,
+h5 {
+    font-family: 'Germania One';
 }
 
 .more {
@@ -337,29 +333,55 @@ img {
 }
 
 @media only screen and (max-width:992px) {
+    .headertext {
+        top: 40%;
+        left: 10%;
+    }
+    .headertext>p:nth-child(1) {
+        font-size: 200%;
+    }
+    .headertext>p:nth-child(2) {
+        font-size: 150%;
+        text-align: right;
+        line-height: 180%;
+    }
     .constyletitle {
         margin-top: +6%;
         margin-bottom: -6%;
-        margin-left: +10%;
+        margin-right: +10%;
     }
     .constyle>div>h2 {
         padding-top: 15%;
     }
+    .imgbulr:before {
+        -moz-box-shadow: inset 0px 0px 20% 20% rgba(255, 255, 255, 1);
+        -webkit-box-shadow: inset -15px 0px 150px 150px rgba(255, 255, 255, 1);
+        box-shadow: inset 0px 0px 20% 20% rgba(255, 255, 255, 1)*/
+    }
 }
 
 @media only screen and (min-width:992px) {
-    .roworder>div:nth-child(1) {
-        order: 12
-    }
-    .roworder>div:nth-child(2) {
+    .roworder1>div:nth-child(1) {
         order: 7
     }
-    .roworder>div:nth-child(3) {
+    .roworder1>div:nth-child(2) {
         order: 1
+    }
+    .roworder1>div:nth-child(3) {
+        order: 2
     }
     .constyletitle {
         transform: rotate(270deg);
         transform-origin: 90% 90%;
+    }
+    .roworder2>div:nth-child(1) {
+        order: 1
+    }
+    .roworder2>div:nth-child(2) {
+        order: 12
+    }
+    .roworder2>div:nth-child(3) {
+        order: 6
     }
     .constyle>div>p {
         padding-left: 10%;
@@ -371,37 +393,86 @@ img {
     .headertext {
         top: 50%;
         left: 10%;
-		font-size:220%;
-        color: #fff;
+        line-height: 500%;
     }
-    .headertext>h2 {
+    .headertext>p:nth-child(1) {
+        font-size: 600%;
+    }
+    .headertext>p:nth-child(2) {
         font-size: 300%;
-    }
-    .headertext>p {
-        line-height: 200%;
+        text-align: right;
+        padding-right: 10%;
     }
     .constyle {
         padding: 5%;
     }
-	.headerImage {
-    width: 100%;
-    height: 100%;
-	}
+    .headerImage {
+        width: 100%;
+        height: 100%;
+    }
+    .imgbulr:before {
+        -moz-box-shadow: inset 0px 0px 20% 20% rgba(255, 255, 255, 1);
+        -webkit-box-shadow: inset -15px 0px 40px 40px rgba(255, 255, 255, 1);
+        box-shadow: inset 0px 0px 20% 20% rgba(255, 255, 255, 1)*/
+    }
 }
 
 
 /****************header********************/
+
 .headerImage {
     width: 103%;
     height: 115%;
-	padding:0px;
-	margin:0px;
+    padding: 0px;
+    margin: 0px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-color: blue;
 }
+
 .content {
     position: relative;
     width: 100%;
+}
+
+.box {
+    width: 90%;
+    background: #eee;
+    margin: 40px auto;
+}
+
+.effect2 {
+    position: relative;
+}
+
+.effect2:before,
+.effect2:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 300px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+.effect2:after {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
 }
