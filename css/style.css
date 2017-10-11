@@ -314,10 +314,9 @@ img {
     position: absolute;
     width: 100%;
     height: 100%;
-    -moz-box-shadow: inset 0px 0px 40px 40px rgba(255, 255, 255, 1);
-    -webkit-box-shadow: inset -15px 0px 60px 60px rgba(255, 255, 255, 1);
-    box-shadow: inset 0px 0px 40px 40px rgba(255, 255, 255, 1)
-    
+    -moz-box-shadow: inset -15px 0px 150px 150px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: inset -15px 0px 150px 150px rgba(255, 255, 255, 1);
+    box-shadow: inset -15px 0px 150px 150px rgba(255, 255, 255, 1);
 }
 
 
@@ -410,11 +409,11 @@ h5 {
         height: 100%;
     }
 	
-	.imgbulr:before {
+.imgbulr:before {
     -moz-box-shadow: inset 0px 0px 40px 40px rgba(255, 255, 255, 1);
     -webkit-box-shadow: inset -15px 0px 40px 40px rgba(255, 255, 255, 1);
-    box-shadow: inset 0px 0px 40px 40px rgba(255, 255, 255, 1)
-    }
+    box-shadow: inset -15px 0px 40px 40px rgba(255, 255, 255, 1);
+}	
 }
 
 
